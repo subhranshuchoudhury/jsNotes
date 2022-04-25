@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed&display=swap');
+
+body{
+	background-color: #069A8E;
+}
+
+h1{
+	margin:  100px auto 150px;
+	text-align: center;
+	color: white;
+	font-family: 'Pacifico', cursive;
+}
+
+div{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	font-weight: bold;
+}
+
+.inline-block{
+	display: inline-block;
+	margin: 0 30px;
+}
+
+.dice-container{
+	text-align: center;
+}
+
+.dice{
+	background-color: #FF6363;
+	border-radius: 50%;
+	height: 70px;
+}
