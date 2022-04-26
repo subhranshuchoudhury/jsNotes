@@ -1,4 +1,4 @@
-# JS_NOTES
-MY JS NOTES
+# JS NOTE
+
 
 # Intermediate JS
