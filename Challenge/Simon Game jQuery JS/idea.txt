@@ -1,0 +1,14 @@
+1) array [r,g,y,b]
+
+2) recordArray.push[user click]
+--[r]
+3)random function
+--1-color
+--2-how many times it clicked X
+ex- y
+
+--> push record array [r,y]
+
+userPlayChoice = [r,y]
+
+if this == recordArray
