@@ -1,0 +1,19 @@
+/******/
+
+node {jsfile.js}
+
+for initialization
+
+npm init , in the project directory
+
+for auto reload
+
+nodemon {jsfile.js}
+
+for install express & bodyparser
+
+npm install express
+
+npm install body-parser
+
+/*******/
