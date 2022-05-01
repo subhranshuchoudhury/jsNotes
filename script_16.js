@@ -1,4 +1,4 @@
-const URL = "https://jsonplaceholder.typicode.com/posts";
+const URL = "https://reqres.in/api/users?page=1";
 const xhr = new XMLHttpRequest();
 xhr.open("GET",URL);
 var data = "It will hold JSON data";
@@ -21,6 +21,7 @@ xhr.onload = ()=>{ // it only and only run when readystate == 4.
 		const jsonFormatData = xhr.response;
 		// console.log(jsonFormatData);
 		data = JSON.parse(jsonFormatData);
+		// console.log(data.data.length)
 		fetchData()
 	}else {
 		alert("Error!, Status code: "+ xhr.status);
@@ -29,10 +30,12 @@ xhr.onload = ()=>{ // it only and only run when readystate == 4.
 
 function fetchData () {
 	
-	for (var i = 0; i < data.length; i++) {
-		console.log(`Title: ${i+1} --> ${data[i].title}`);
+	for (var i = 0; i < data.data.length; i++) {
+		console.log(`Email: ${i+1} --> ${data.data[i].email}`);
 	}
 
 }
 
 xhr.send();
+
+// Must use: https://jsonpathfinder.com/
